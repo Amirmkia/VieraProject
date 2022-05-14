@@ -1,0 +1,5 @@
+function pair<S , T>(v1 : S , v2 : T) : [S , T]{
+    return [v1 , v2];
+}
+
+console.log(pair<string , number>("Amir" , 24));
